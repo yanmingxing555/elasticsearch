@@ -1,2 +1,2 @@
-# study
-ES学习
+# elasticsearch
+elasticsearch学习
