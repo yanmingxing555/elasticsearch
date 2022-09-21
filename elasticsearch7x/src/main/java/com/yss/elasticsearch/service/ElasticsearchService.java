@@ -48,10 +48,10 @@ public class ElasticsearchService {
 
     /**
      * 创建索引
-     * @param indexName
-     * @param indexJson
-     * @param shardNo
-     * @param replicas
+     * @param indexName 索引名称
+     * @param indexJson 映射规则
+     * @param shardNo 分片数量
+     * @param replicas 副本数量
      * @return
      */
     public boolean createIndex(String indexName, String indexJson, int shardNo, int replicas) {
