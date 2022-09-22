@@ -9,9 +9,9 @@ import org.elasticsearch.common.xcontent.XContentType;
 /**
  * @author: ymx
  * @date: 2022/9/15
- * @description:
+ * @description: 文档数据修改
  */
-public class DocUpdate {
+public class Doc_Update {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client -> {
             //修改文档-请求对象

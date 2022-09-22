@@ -12,9 +12,9 @@ import java.io.IOException;
 /**
  * @author: ymx
  * @date: 2022/9/15
- * @description:
+ * @description: 索引创建
  */
-public class IndexCreate {
+public class Index_Create {
     public static void main(String[] args) throws IOException {
         //创建客户端对象
         RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("localhost",9200,"http")));

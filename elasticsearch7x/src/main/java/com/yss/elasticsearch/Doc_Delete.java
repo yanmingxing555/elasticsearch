@@ -4,8 +4,12 @@ import com.yss.elasticsearch.pack.ElasticsearchConnect;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.client.RequestOptions;
-
-public class DocDelete {
+/**
+ * @author: ymx
+ * @date: 2022/9/15
+ * @description: 文档删除
+ */
+public class Doc_Delete {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client -> {
             //创建请求对象

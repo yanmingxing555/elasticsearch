@@ -11,9 +11,9 @@ import org.elasticsearch.common.xcontent.XContentType;
 /**
  * @author: ymx
  * @date: 2022/9/15
- * @description:
+ * @description: 文档数据插入
  */
-public class DocInsert {
+public class Doc_Insert {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client->{
             //新增文档-请求对象

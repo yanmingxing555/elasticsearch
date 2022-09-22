@@ -9,9 +9,9 @@ import org.elasticsearch.client.RequestOptions;
 /**
  * @author: ymx
  * @date: 2022/9/15
- * @description:
+ * @description: 文档数据批量删除
  */
-public class DocBatchDelete {
+public class Doc_Delete_Batch {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client -> {
             //创建批量删除请求对象

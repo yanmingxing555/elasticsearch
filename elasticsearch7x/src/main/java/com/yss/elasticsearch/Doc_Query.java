@@ -29,18 +29,18 @@ import java.util.Map;
  *  模糊查询 & 高亮查询
  *  最大值查询 & 分组查询
  */
-public class DocQuery {
+public class Doc_Query {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(SEARCH_ALL);//查询所有
-        // ElasticsearchConnect.connect(SEARCH_BY_CONDITION);//条件查询
-        // ElasticsearchConnect.connect(SEARCH_BY_PAGING);//分页查询
-        // ElasticsearchConnect.connect(SEARCH_WITH_ORDER);//查询排序
-        // ElasticsearchConnect.connect(SEARCH_BY_BOOL_CONDITION);//组合查询
-        // ElasticsearchConnect.connect(SEARCH_BY_RANGE);//范围查询
-        // ElasticsearchConnect.connect(SEARCH_BY_FUZZY_CONDITION);//模糊查询
-        // ElasticsearchConnect.connect(SEARCH_WITH_HIGHLIGHT);//高亮查询
-        // ElasticsearchConnect.connect(SEARCH_WITH_MAX);//最大值查询
-        // ElasticsearchConnect.connect(SEARCH_WITH_GROUP);//分组查询
+        ElasticsearchConnect.connect(SEARCH_BY_CONDITION);//条件查询
+        ElasticsearchConnect.connect(SEARCH_BY_PAGING);//分页查询
+        ElasticsearchConnect.connect(SEARCH_WITH_ORDER);//查询排序
+        ElasticsearchConnect.connect(SEARCH_BY_BOOL_CONDITION);//组合查询
+        ElasticsearchConnect.connect(SEARCH_BY_RANGE);//范围查询
+        ElasticsearchConnect.connect(SEARCH_BY_FUZZY_CONDITION);//模糊查询
+        ElasticsearchConnect.connect(SEARCH_WITH_HIGHLIGHT);//高亮查询
+        ElasticsearchConnect.connect(SEARCH_WITH_MAX);//最大值查询
+        ElasticsearchConnect.connect(SEARCH_WITH_GROUP);//分组查询
     }
     //查询所有
     public static final ElasticsearchTask SEARCH_ALL = client -> {

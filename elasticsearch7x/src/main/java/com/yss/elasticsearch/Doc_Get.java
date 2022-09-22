@@ -5,7 +5,12 @@ import org.elasticsearch.action.get.GetRequest;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.client.RequestOptions;
 
-public class DocGet {
+/**
+ * @author: ymx
+ * @date: 2022/9/15
+ * @description: 文档查询
+ */
+public class Doc_Get {
 
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client -> {

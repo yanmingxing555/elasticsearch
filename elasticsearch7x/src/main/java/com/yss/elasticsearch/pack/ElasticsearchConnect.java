@@ -6,7 +6,7 @@ import org.elasticsearch.client.RestHighLevelClient;
 
 /**
  * @author: ymx
- * @date: 2022/9/15
+ * @date: 2022/9/22
  * @description:
  */
 public class ElasticsearchConnect {

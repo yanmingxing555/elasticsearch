@@ -12,7 +12,7 @@ import org.elasticsearch.common.xcontent.XContentType;
  * @date: 2022/9/15
  * @description: 批量新增
  */
-public class DocBatchInsert {
+public class Doc_Insert_Batch {
     public static void main(String[] args) {
         ElasticsearchConnect.connect(client -> {
             //创建批量新增请求对象
